@@ -16,7 +16,7 @@ jobs:
       - name: Run hello script
         run: python hello.py
 
-lint:
+  lint:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
